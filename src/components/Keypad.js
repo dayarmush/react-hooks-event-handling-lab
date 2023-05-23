@@ -3,7 +3,7 @@
 function Keypad (){
     return (
         <div>
-            <input type='text' name='password' onChange={() => console.log('Entering password...')} />
+            <input type='password' name='password' onChange={() => console.log('Entering password...')} />
         </div>
     )
 }
